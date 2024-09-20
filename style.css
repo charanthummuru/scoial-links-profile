@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .html {
+    font-family: 'Inter', sans-serif;
+  }
+  body {
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+    
+  }
+ 
+
+  ul {
+    list-style: none;
+  }
+  .container {
+    box-shadow: #6a6a6a;
+    background-color: hsl(0, 0%, 12%);
+    max-width: 400px;
+    width: 100%;
+    padding: 40px;
+    border-radius: 10px;
+  }
+ .container img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: block;
+    margin-inline: auto;
+    margin-bottom: 1.25rem;
+ }
+ .container h1 {
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+ }
+ .container p {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 25px;
+    color: #fff;
+    text-align: center;
+ }
+ .container span {
+    color: hsl(75, 94%, 57%);
+    display: block;
+    font-size: 1rem;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0.5rem 0 1rem;
+ }
+ .container ul {
+    display: grid;
+    gap: 0.95rem;
+    margin-top: 2rem;
+ }
+ .container ul li a {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    background-color: hsl(0, 0%, 20%);
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: 0.15s ease-in-out;
+ }
+ .container ul li a:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+ }
+ .attribution {
+    font-size: 13px;
+    color: #fff;
+    margin-top: 1rem;
+ }
+ .attribution a {
+    color: hsl(228, 45%, 44%);
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
